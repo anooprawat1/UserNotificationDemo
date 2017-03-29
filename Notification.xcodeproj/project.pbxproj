@@ -14,6 +14,7 @@
 		A597CE961E8B93AE00A04BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597CE941E8B93AE00A04BF8 /* LaunchScreen.storyboard */; };
 		A597CEA11E8B93AE00A04BF8 /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597CEA01E8B93AE00A04BF8 /* NotificationTests.swift */; };
 		A597CEAC1E8B93AE00A04BF8 /* NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597CEAB1E8B93AE00A04BF8 /* NotificationUITests.swift */; };
+		A597CEBA1E8B9FB100A04BF8 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597CEB91E8B9FB100A04BF8 /* Downloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A597CEA71E8B93AE00A04BF8 /* NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A597CEAB1E8B93AE00A04BF8 /* NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUITests.swift; sourceTree = "<group>"; };
 		A597CEAD1E8B93AE00A04BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597CEB91E8B9FB100A04BF8 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A597CE8B1E8B93AE00A04BF8 /* AppDelegate.swift */,
 				A597CE8D1E8B93AE00A04BF8 /* ViewController.swift */,
+				A597CEB91E8B9FB100A04BF8 /* Downloader.swift */,
 				A597CE8F1E8B93AE00A04BF8 /* Main.storyboard */,
 				A597CE921E8B93AE00A04BF8 /* Assets.xcassets */,
 				A597CE941E8B93AE00A04BF8 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				A597CE8E1E8B93AE00A04BF8 /* ViewController.swift in Sources */,
 				A597CE8C1E8B93AE00A04BF8 /* AppDelegate.swift in Sources */,
+				A597CEBA1E8B9FB100A04BF8 /* Downloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
